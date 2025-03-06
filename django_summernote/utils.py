@@ -126,7 +126,8 @@ SUMMERNOTE_THEME_FILES = {
     'lite': {
         'base_css': (),
         'base_js': (
-            '//code.jquery.com/jquery-3.6.0.min.js',
+            'summernote/jquery-3.6.0.min.js',
+            # '//code.jquery.com/jquery-3.6.0.min.js',
         ),
         'default_css': (
             'summernote/summernote-lite.css',
