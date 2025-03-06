@@ -91,7 +91,7 @@ function initSummernote_{{ id_safe }}() {
                         origin.value = $sn.summernote('code');
                     },
                     {% if not config.disable_attachment %}
-                    onImageUpload: function(files) {
+                    {% comment %} onImageUpload: function(files) {
                         // custom attachment data
                         var attachmentData = origin.dataset;
                         $nImageInput = $nEditor.find('.note-image-input');
@@ -121,7 +121,7 @@ function initSummernote_{{ id_safe }}() {
                         // Summernote will replace ImageInput when next the dialog opens.
                         // But we have to reset it to prevent additional uploading by form itself.
                         $nImageInput.replaceWith($nImageInput.val('').clone(true));
-                    }
+                    } {% endcomment %}
                     {% endif %}
                 }
             }));

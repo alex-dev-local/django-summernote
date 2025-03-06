@@ -133,9 +133,9 @@ SUMMERNOTE_THEME_FILES = {
             'summernote/django_summernote.css',
         ),
         'default_js': (
-            'summernote/jquery.ui.widget.js',
-            'summernote/jquery.iframe-transport.js',
-            'summernote/jquery.fileupload.js',
+            # 'summernote/jquery.ui.widget.js',
+            # 'summernote/jquery.iframe-transport.js',
+            # 'summernote/jquery.fileupload.js',
             'summernote/summernote-lite.min.js',
             'summernote/ResizeSensor.js',
         ),
